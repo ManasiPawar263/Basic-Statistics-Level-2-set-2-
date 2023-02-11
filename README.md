@@ -12,7 +12,12 @@ D.	0.6987
 A.	More employees at the processing center are older than 44 than between 38 and 44.
 B.	A training program for employees under the age of 30 at the center would be expected to attract about 36 employees.
 
-3.	If X1 ~ N(μ, σ2) and X2 ~ N(μ, σ2) are iid normal random variables, then what is the difference between 2 X1 and X1 + X2? Discuss both their distributions and parameters.       
+3.	If X1 ~ N(μ, σ2) and X2 ~ N(μ, σ2) are iid normal random variables, then what is the difference between 2 X1 and X1 + X2? Discuss both their distributions and parameters.  
+
+Answer: 
+        As we know that if X ∼N(μ1, σ1^2 ), and Y ∼N(μ2, σ2^2 ) are two independent random variables then X + Y ∼N(μ1 + μ2, σ1^2 + σ2^2 ) , 
+        and X − Y ∼N(μ1 − μ2, σ1^2 + σ2^2 ) .Similarly if Z = aX + bY , where X and Y are as defined above, i.e Z is linear combination of X and Y ,
+        then Z ∼N(aμ1 + bμ2, a^2σ1^2 + b^2σ2^2 ).
 
 4.	Let X ~ N(100, 202). Find two values, a and b, symmetric about the mean, such that the probability of the random variable taking a value between them is 0.99. 
 
